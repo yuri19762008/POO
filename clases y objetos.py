@@ -6,7 +6,7 @@ class Celular:
         
     #metodos
     def llamar(self):
-        print(f'Esta haciendo un llamado desde un {self.modelo}')
+        print(f'Esta haciendo un llamado desde un: {self.modelo}')
     
     def cortar(self):
         print(f'Cortaste la llamada desde tu: {self.modelo}')

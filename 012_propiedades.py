@@ -15,17 +15,17 @@ class Persona:
     def nombre(self):
         del self.__nombre
     
-dalto = Persona("Lucas", 21)
+yuri = Persona("Lucas", 21)
 
-nombre = dalto.nombre
+nombre = yuri.nombre
 print(nombre)
 
-dalto.nombre = "Pepe, despues se elimino con deleter"
+yuri.nombre = "Pepe, despues se elimino con deleter"
 
-nombre = dalto.nombre
+nombre = yuri.nombre
 print(nombre)
 
-del dalto.nombre 
+del yuri.nombre 
 #se elimino por eso el error
-#nombre = dalto.nombre
+#nombre = yuri.nombre
 #print(nombre)

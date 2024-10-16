@@ -1,6 +1,7 @@
 class A:
     def hablar (self):
         print("hola desde A")
+        
 class F(A):
     def hablar (self):
         print("hola desde F")
@@ -14,10 +15,9 @@ class C(F):
         print("hola desde C")
         
 class D(B,C):
-    #def hablar (self):
-        #print("hola desde D")
-    pass
-
+    def hablar (self):
+        print("hola desde D")
+    
 d = D()
 
 print(D.mro())
